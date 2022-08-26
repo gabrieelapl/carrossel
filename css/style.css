@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+}
+
+.carrossel{
+    border: solid #757575 2px;
+    border-radius: 15px;
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.carrossel .fotos{
+    width: 1100%; 
+    animation: animacao 30s infinite;
+}
+
+.carrossel .fotos img{
+    width: 636px;
+}
+
+@keyframes animacao{
+    0% {margin-left: 0;} 
+    3% {margin-left: 0;} 
+    10% {margin-left: -100%;} 
+    13% {margin-left: -100%;} 
+    20% {margin-left: -200%;}
+    23% {margin-left: -200%;} 
+    30% {margin-left: -300%;} 
+    33% {margin-left: -300%;} 
+    40% {margin-left: -400%;} 
+    43% {margin-left: -400%;}
+    50% {margin-left: -500%;} 
+    53% {margin-left: -500%;}
+    60% {margin-left: -600%;} 
+    63% {margin-left: -600%;} 
+    70% {margin-left: -700%;} 
+    73% {margin-left: -700%;} 
+    80% {margin-left: -800%;} 
+    83% {margin-left: -800%;} 
+    90% {margin-left: -900%;} 
+    93% {margin-left: -900%;} 
+    100% {margin-left: -1000%;} 
+}
